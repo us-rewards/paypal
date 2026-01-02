@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Claim $100 PayPal Reward — Quick & Secure</title>
+
+  <meta name="description" content="Fast, secure PayPal reward. Complete a short verification and get $100 credited to your PayPal account." />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased text-slate-800 bg-slate-50">
+
+<!-- NAV -->
+<header class="max-w-5xl mx-auto p-6 flex items-center justify-between">
+  <div class="flex items-center gap-3">
+    <img src="logo.jpeg" class="h-10 w-10 rounded-md shadow-sm" />
+    <div>
+      <div class="font-semibold">PayPal Rewards</div>
+      <div class="text-xs text-slate-500">Trusted offers • New users only</div>
+    </div>
+  </div>
+
+  <nav class="hidden md:flex gap-6 text-sm text-slate-600">
+    <a href="#how">How it works</a>
+    <a href="#faq">FAQ</a>
+    <a href="#trust">Trust</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero-bg py-14">
+  <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+
+    <div class="text-white">
+      <h1 class="text-3xl md:text-4xl font-extrabold">
+        Claim a <span class="underline decoration-yellow-300">$100</span> PayPal Reward
+      </h1>
+      <p class="mt-4 text-slate-100/90">
+        Complete a short verification and receive $100 in your PayPal account.
+      </p>
+
+      <div class="mt-6">
+        <a id="ctaTop" href="#verifyBox"
+           class="px-6 py-3 bg-white text-slate-900 rounded-full font-semibold">
+          Get $100 Now
+        </a>
+      </div>
+    </div>
+
+    <div id="verifyBox" class="glass p-6 rounded-2xl shadow-lg">
+      <div class="font-semibold text-slate-700">Quick Steps</div>
+
+      <ol class="mt-4 text-sm list-decimal list-inside space-y-2">
+        <li>Click verification button</li>
+        <li>Complete short registration</li>
+        <li>Receive $100 in 3–7 days</li>
+      </ol>
+
+      <img src="paypal.jpeg"
+           class="w-full h-60 object-cover rounded-lg mt-6">
+
+      <a href="https://smrturl.co/a/s0f386d23e3/576?s1="
+         class="block mt-4 text-center py-3 bg-yellow-400 rounded-lg font-semibold">
+        Proceed to Verification
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- HOW -->
+<section id="how" class="max-w-5xl mx-auto px-6 py-12">
+  <h2 class="text-2xl font-bold">How it works</h2>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="max-w-5xl mx-auto px-6 py-10">
+  <h3 class="text-xl font-bold">FAQ</h3>
+</section>
+
+<!-- FOOTER -->
+<footer class="max-w-5xl mx-auto px-6 py-8 text-sm text-slate-500">
+  © <span id="year"></span> PayPal Rewards
+</footer>
+
+<!-- SOCIAL PROOF -->
+<div id="spToast" class="sp-toast sp-show">
+  <div class="flex items-center gap-3 p-3 bg-white">
+    <img id="spAvatar" class="sp-avatar">
+    <div>
+      <div id="spName" class="font-medium text-sm"></div>
+      <div id="spMsg" class="text-xs text-slate-600"></div>
+    </div>
+    <button id="spClose">×</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
